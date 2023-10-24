@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e3f2ff;
+}
+
+header {
+    background-color: #002447;
+    border-bottom: 5px solid #f8ad8e;
+    text-align: center;
+
+
+}
+
+/*Logo Tu astrología*/
+.logo {
+    width: 300px;
+    padding: 20px;
+
+
+}
+
+/*Navegación*/
+nav ul li {
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    text-align: center;
+
+
+
+
+}
+
+/*Enlaces*/
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+
+}
+
+/*Redes Sociales*/
+div {
+    margin: 0 20px;
+    padding: 5px;
+    position: relative;
+    bottom: 0px;
+    left: 600px;
+
+
+}
+
+.facebook {
+    width: 50px;
+
+}
+
+.instagram {
+    width: 50px;
+}
+
+.email {
+    width: 50px;
+}
+
+/*Titulos*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #002447;
+    text-align: left;
+    margin: 5px 100px;
+    padding: 5px;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 5px 100px;
+    padding: 3px;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 5px 500px 5px 104px;
+    text-align: justify;
+    display: block;
+
+}
+
+.imagenSignos {
+    width: 300px;
+    position: absolute;
+    top: 240px;
+    right: 100px;
+
+
+
+}
+
+/*Footer*/
+footer {
+
+    background-color: #002447;
+    border-top: #f8ad8e 5px solid;
+    padding: 50px;
+
+
+}
+
+h3 {
+
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 100px;
+}
+
+h4 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+/*Formulario*/
+form {
+
+    margin: 15px 100px;
+    text-align: center;
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px 100px;
+    color: black;
+}
+
+input {
+
+    width: 100px;
+    padding: 10px;
+    border: #f8ad8e 2px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.boton {
+    background-color: #002447;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*El cielo hoy*/
+
+.calendarioLunar {
+
+    width: 600px;
+    border-radius: 15px;
+    margin: 15px 600px;
+    border: #f8ad8e solid 3px;
+
+}
+
+/*Escuelita*/
+
+iframe {
+    margin: 15px 600px;
+
+}
