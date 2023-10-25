@@ -11,8 +11,45 @@ header {
     background-color: #002447;
     border-bottom: 5px solid #f8ad8e;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*Banner*/
+
+.banner {
+    background-image: url("../img/composicion-concepto-numerologia.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Redes Sociales*/
+
+div {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
 
 
+.facebook {
+    width: 30px;
+
+}
+
+.instagram {
+    width: 30px;
+}
+
+.email {
+    width: 30px;
 }
 
 /*Logo Tu astrología*/
@@ -47,38 +84,12 @@ a {
 
 }
 
-/*Redes Sociales*/
-div {
-    margin: 0 20px;
-    padding: 5px;
-    position: relative;
-    bottom: 0px;
-    left: 600px;
-
-
-}
-
-.facebook {
-    width: 50px;
-
-}
-
-.instagram {
-    width: 50px;
-}
-
-.email {
-    width: 50px;
-}
-
 /*Titulos*/
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color: #002447;
-    text-align: left;
-    margin: 5px 100px;
-    padding: 5px;
+    color: white;
+    text-align: center;
 
 }
 
@@ -99,15 +110,6 @@ p {
 
 }
 
-.imagenSignos {
-    width: 300px;
-    position: absolute;
-    top: 240px;
-    right: 100px;
-
-
-
-}
 
 /*Footer*/
 footer {
