@@ -20,10 +20,10 @@ header {
 /*Banner*/
 
 .banner {
-    background-image: url("../img/composicion-concepto-numerologia.jpeg");
+    background-image: url("../img/cielobanner.png");
     background-size: cover;
     background-position: center;
-    height: 95vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +36,7 @@ div {
     bottom: 0;
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 
 
@@ -55,7 +56,7 @@ div {
 /*Logo Tu astrología*/
 .logo {
     width: 300px;
-    padding: 20px;
+    padding: 50px;
 
 
 }
@@ -72,7 +73,7 @@ nav ul li {
 /*Titulos*/
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 3rem;
     color: white;
     text-align: center;
 
@@ -80,20 +81,79 @@ h1 {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     margin: 5px 100px;
     padding: 3px;
+    color: #e3f2ff;
 
 }
+
+.bannerContenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerIconos {
+
+    height: 60px;
+}
+
+/*Contenido*/
+
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    margin: 5px 500px 5px 104px;
+    font-size: 1, 5rem;
+    margin: 100px 100px;
     text-align: justify;
     display: block;
 
+
 }
+
+/*Tarjetas*/
+
+.contenedor1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #002447;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.tarjeta img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.pregunta {
+    color: #e3f2ff;
+    font-size: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.texto {
+    color: antiquewhite;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 /*Enlaces*/
 a {
