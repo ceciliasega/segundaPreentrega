@@ -1,0 +1,38 @@
+/*Banner*/
+
+.banner {
+  background-image: url("../img/bannernuevo.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Titulos*/
+
+h1 {
+  font-size: 3rem;
+  color: $azul;
+  text-align: center;
+}
+
+h2 {
+  font-family: $tipografia2;
+  font-size: 2rem;
+  margin: 5px 100px;
+  padding: 3px;
+  color: $azul;
+}
+
+/*Banner*/
+
+.bannerContenido {
+  display: flex;
+  flex-direction: column;
+}
+
+.bannerIconos {
+  height: 60px;
+}

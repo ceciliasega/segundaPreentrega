@@ -1,0 +1,32 @@
+/*Contenido*/
+
+.tituloh3 {
+    background-color: $naranja;
+    color: $azul;
+    @include texto;
+    font-size: 2rem;
+    padding: 16px;
+  }
+  
+  h3 {
+    color: $azul;
+    font-size: 2rem;
+    @include texto;
+    padding: 30px;
+  }
+  
+  .textoPrincipal {
+    color: $azul;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: 30px 120px;
+  }
+  
+  p {
+    font-family: $tipografia2;
+    font-size: 1, 5rem;
+    margin: 100px 100px;
+    text-align: center;
+    display: block;
+  }
+  

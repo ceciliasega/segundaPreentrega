@@ -1,0 +1,34 @@
+/*Logo Tu astrología*/
+
+.logo {
+  width: 400px;
+  padding: 60px;
+  text-align: center;
+}
+
+/*Enlaces*/
+
+.estiloNav a {
+  font-size: 1, 5rem;
+  @include texto;
+  text-decoration: none;
+  color: $blanco;
+  font-family: $tipografia2;
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+
+  &:hover {
+    background-color: $celeste;
+    color: $naranja;
+  }
+}
+
+.encabezado {
+  background-color: $azul;
+  border-bottom: 5px solid $naranja;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}

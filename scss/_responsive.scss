@@ -1,0 +1,74 @@
+
+/*Resposive*/
+@media (min-width: 300px) and (max-width: 1030px) {
+  .logo {
+    align-items: center;
+  }
+
+  .banner {
+    width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bannerContenido {
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1, 1rem;
+      text-align: center;
+    }
+  }
+
+  .bannerIconos {
+    width: 80vw;
+    padding-left: 0;
+    padding-right: 0;
+    display: none;
+  }
+
+  .contenedor1 {
+    grid-template-columns: 1fr;
+  }
+
+  .tarjeta {
+    width: 80vw;
+    padding-left: 0;
+  }
+
+  #textoh2 {
+    text-align: right;
+    font-size: 1, 3rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerContenedor {
+    align-items: center;
+  }
+
+  .infoContacto h4 {
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .redeSociales {
+    margin-left: 260px;
+    align-items: center;
+  }
+
+  iframe {
+    margin: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .bannerIconos {
+    display: none;
+  }
+}

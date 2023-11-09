@@ -1,0 +1,59 @@
+
+/*Footer*/
+
+.footer {
+  background-color: $azul;
+  border-top: $naranja 5px solid;
+  padding: 20px 0;
+  display: flex;
+  flex: row;
+}
+
+.footerContenedor {
+  max-width: 600px;
+  margin: 0 70px;
+  padding: 10px;
+}
+
+.infoContacto {
+  h4 {
+    font-size: 2rem;
+    color: $celeste;
+    justify-content: center;
+    margin-left: 150px;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    color: $celeste;
+    justify-content: center;
+  }
+
+  h5 {
+    font-size: 1rem;
+    margin-bottom: 60px;
+    color: $celeste;
+  }
+}
+
+/*Redes Sociales*/
+
+.redeSociales {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+h4 {
+  color: $blanco;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+h5 {
+  color: $azul;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: $tipografia2;
+}
