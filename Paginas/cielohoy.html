@@ -4,37 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El cielo</title>
+    <meta name="description"
+        content="Bienvenidos a Tu Astrología. Acá vas a encontrar información importante de los astros. Vas a encontrar un universo destro de vos. Empezá ahora a autodescubrir. Bienvenido y bienvenida a tu viaje">
+    <title>Bienvenidos a Tu Astrología | Mirá como está el cielo hoy</title>
+
+
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
-    <header>
-        <a href="../index.html">
-            <img class="logo" src="../img/logo-rosa.png" alt="Logo de Tu Astrología">
-        </a>
-
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="carta.html">Tu Carta</a></li>
-                <li><a href="escuelita.html">La escuelita</a></li>
-                <li><a href="cielohoy.html">El cielo hoy</a></li>
-                <li><a href="contactanos.html">Contactanos</a></li>
-            </ul>
-        </nav>
-        <div>
-            <a href="https://facebook.com">
-                <img class="facebook" src="../img/fbicono.png" alt="icono Facebook">
-            </a>
-            <a href="https://instagram.com">
-                <img class="instagram" src="../img/imlogo.png" alt="icono Instagram">
-            </a>
-            <a href="https://mail.google.com">
-                <img class="email" src="../img/emaillogo.png" alt="icono de contacto por email">
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a href="../index.html">
+                <img class="logo" src="../img/logo-rosa.png" alt="Logo de la página web llamada Tu Astrología">
             </a>
 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav estiloNav">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="carta.html">Tu Carta</a></li>
+                    <li><a href="escuelita.html">La escuelita</a></li>
+                    <li><a href="cielohoy.html">El cielo hoy</a></li>
+                    <li><a href="contactanos.html">Contactanos</a></li>
+                </ul>
 
+            </nav>
         </div>
     </header>
 
@@ -45,23 +49,60 @@
             <img class="bannerIconos" src="../img/signosbanner.png" alt="Iconos de los 12 signos">
 
     </section>
-    <main class="cieloHoy">
+    <main class="tituloh3 mt-3">
         <h3>Conocé el calendario lunar</h3>
-        <p>
+        <p class="textoPrincipal">
             Es importante saber como transita la luna día a día a través de los signos. Te puede indicar cuando iniciar
-            un proyecto, o cuando finalizar. También te dice cuando tomar todo con más calma.
+            un proyecto, o cuando finalizar. También te dice cuando tomar todo con más calma.La luna es uno de los
+            cuerpos celestes más importantes en la astrología, y se le atribuyen varias influencias en la personalidad y
+            en la vida de las personas. Según la astrología, la luna representa las emociones, la sensibilidad, la
+            intuición, el instinto maternal y la conexión con el pasado y las raíces familiares.
         </p>
 
-        <img class="calendarioLunar" src="../img/CalendrioLunar.png" alt="Calendario lunar">
+        <div class="tarjeta">
+            <img src="../img/calendariooctubre.jpeg" alt="Imagen con las fases de la luna en el mes de ocubre">
+            <h3 class="pregunta">Fases de la luna mes de octubre</h3>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../img/calendarionoviembre.jpeg" alt="Imagen con las fases de la luna en el mes de noviembre">
+            <h3 class="pregunta">Fases de la luna mes de noviembre</h3>
+        </div>
+
+        <div class="tarjeta">
+            <img src="../img/calendariodiciembre.jpeg" alt="Imagen con la fases de la luna en el mes de diciembre">
+            <h3 class="pregunta">Fases de la luna mes de diciembre</h3>
+        </div>
 
     </main>
 
-    <footer>
-        <h4>Todos los derechos reservados, tu Astrología. Contactanos en info@tuastrología.com</h4>
+    <footer class="footer">
 
+        <div class="footerContenedor">
+            <div class="infoContacto">
+                <h4>Nuestras redes sociales</h4>
+                <p>Unite a nuestra comunidad.</p>
+                <h5>Todos los derechos reservados, tu Astrología. Contactanos en info@tuastrología.com</h5>
+            </div>
 
+        </div>
+        <div class="redeSociales">
+            <a href="https://facebook.com">
+                <img class="facebook" src="../img/fbicono.png" alt="icono Facebook">
 
+            </a>
+            <a href="https://instagram.com">
+                <img class="instagram" src="../img/imlogo.png" alt="icono Instagram">
+            </a>
+            <a href="https://mail.google.com">
+                <img class="email" src="../img/emaillogo.png" alt="icono de contacto por email">
+            </a>
+
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 

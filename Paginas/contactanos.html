@@ -4,26 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactanos</title>
+    <meta name="description"
+        content="Bienvenidos a Tu Astrología. Acá vas a encontrar información importante de los astros. Vas a encontrar un universo destro de vos. Empezá ahora a autodescubrir. Bienvenido y bienvenida a tu viaje">
+    <title>Bienvenidos a Tu Astrología | Contactanos</title>
+
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS -->
+
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
-    <header>
-        <a href="../index.html">
-            <img class="logo" src="../img/logo-rosa.png" alt="Logo de Tu Astrología">
-        </a>
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a href="../index.html">
+                <img class="logo" src="../img/logo-rosa.png" alt="Logo de la página web llamada Tu Astrología">
+            </a>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="carta.html">Tu Carta</a></li>
-                <li><a href="escuelita.html">La escuelita</a></li>
-                <li><a href="cielohoy.html">El cielo hoy</a></li>
-                <li><a href="contactanos.html">Contactanos</a></li>
-            </ul>
-        </nav>
-        <div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav estiloNav">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="carta.html">Tu Carta</a></li>
+                    <li><a href="escuelita.html">La escuelita</a></li>
+                    <li><a href="cielohoy.html">El cielo hoy</a></li>
+                    <li><a href="contactanos.html">Contactanos</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="banner">
+        <div class="bannerContenido">
+            <h1>Bienvenidos a tu Astrología</h1>
+            <h2>Es momento de hacer tu propio viaje</h2>
+            <img class="bannerIconos" src="../img/signosbanner.png" alt="Iconos de los 12 signos">
+
+    </section>
+
+    <main>
+        <h3>Contactanos acá</h>
+            <p>Si te quedaste con alguna duda, escribinos</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13121.726192067073!2d-58.3374791!3d-34.69429375000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1696302328335!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <h3>Dirección: Calle falsa 1234
+                Piso 1B
+                Email: info@tuastrologia.com
+                Teléfono: 15-12345678
+            </h3>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footerContenedor">
+            <div class="infoContacto">
+                <h4>Nuestras redes sociales</h4>
+                <p>Unite a nuestra comunidad.</p>
+                <h5>Todos los derechos reservados, tu Astrología. Contactanos en info@tuastrología.com</h5>
+            </div>
+
+        </div>
+        <div class="redeSociales">
             <a href="https://facebook.com">
                 <img class="facebook" src="../img/fbicono.png" alt="icono Facebook">
             </a>
@@ -34,42 +89,11 @@
                 <img class="email" src="../img/emaillogo.png" alt="icono de contacto por email">
             </a>
 
-
         </div>
-        
-    </header>
-
-    <section class="banner">
-        <div class="bannerContenido">
-            <h1>Bienvenidos a tu Astrología</h1>
-            <h2>Es momento de hacer tu propio viaje</h2>
-            <img class="bannerIconos" src="../img/signosbanner.png" alt="Iconos de los 12 signos">
-
-    </section>
-    
-    <main>
-        <h3>Contactanos acá</h>
-        <p>Si te quedaste con alguna duda, escribinos</p>
-
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13121.726192067073!2d-58.3374791!3d-34.69429375000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1696302328335!5m2!1ses!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
-        <h3>Dirección: Calle falsa 1234
-            Piso 1B
-            Email: info@tuastrologia.com
-            Teléfono: 15-12345678
-        </h3>
-
-    </main>
-
-    <footer>
-        <h4>Todos los derechos reservados, tu Astrología. Contactanos en info@tuastrología.com</h4>
-
-
-
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -4,27 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a Tu Astrología</title>
+    <meta name="description"
+        content="Bienvenidos a Tu Astrología. Acá vas a encontrar información importante de los astros. Vas a encontrar un universo destro de vos. Empezá ahora a autodescubrir. Bienvenido y bienvenida a tu viaje">
+    <title>Bienvenidos a Tu Astrología | Sumate a autodescubrirte</title>
+
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <img class="logo" src="img/logo-rosa.png" alt="Logo de Tu Astrología">
-        </a>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Paginas/carta.html">Tu Carta</a></li>
-                <li><a href="Paginas/escuelita.html">La escuelita</a></li>
-                <li><a href="Paginas/cielohoy.html">El cielo hoy</a></li>
-                <li><a href="Paginas/contactanos.html">Contactanos</a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a href="index.html">
+                <img class="logo" src="img/logo-rosa.png" alt="Logo de la página web llamada Tu Astrología">
+            </a>
 
-        <div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav estiloNav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Paginas/carta.html">Tu Carta</a></li>
+                    <li><a href="Paginas/escuelita.html">La escuelita</a></li>
+                    <li><a href="Paginas/cielohoy.html">El cielo hoy</a></li>
+                    <li><a href="Paginas/contactanos.html">Contactanos</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="bannerContenido">
+            <h1>Bienvenidos a tu Astrología</h1>
+            <h2>Es momento de hacer tu propio viaje</h2>
+            <img class="bannerIconos" src="img/signosbanner.png" alt="Iconos de los 12 signos">
+
+    </section>
+
+    <div class="tituloh3 mt-3">
+        <h3>
+            ¿Qué es la astrología?
+        </h3>
+
+        <p class="textoPrincipal">La astrología es una disciplina seudocientífica que trata de predecir los
+            acontecimientos de la
+            vida
+            humana en base a los astros y su posición en el cielo.
+
+            Por tanto, la astrología está basada en una serie
+            de creencias que establecen una relación entre los seres humanos y las posiciones de los astros en el
+            firmamento.Así se la considera como una pseudociencia, ya que comprende la interpretación de factores que no
+            se encuentran científicamente comprobados.
+
+            Su trabajo comprende la fundación de la carta astral, elemento
+            que define en detalle a una persona y cada una de sus características.
+
+            Además, a partir de la astrología se generan los famosos horóscopos, que se basan en los signos solares y
+            arronjan ciertos consejos a partir del análisis planetario.</p>
+
+    </div>
+
+    <main class="contenedor1">
+        <div class="tarjeta">
+            <img src="img/tarjeta1.png" alt="Icono de una mano sosteniendo una flor">
+            <h3 class="pregunta"> Astrología humanista</h3>
+
+            <p class="texto">
+                Utiliza conceptos de la psicología y la filosofía para analizar cada etapa de la vida. Su fundación
+                tiene como objetivo el auto conocimiento del ser. Sus máximos exponentes son Louise Huber, Liz Greene y
+                Howard Sasportas.
+
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="img/tarjeta2.png" alt="Icono de una mano abierta en donde aparece una rama">
+            <h3 class="pregunta">Astrología racional</h3>
+
+            <p class="texto"> Utiliza el trabajo del astrólogo y matemático del siglo XVII, Jean-Baptiste Morin de
+                Villefranche, quien la consideraba una ciencia para conocer al cosmos.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="img/tarjeta3.png" alt="Icono de una mano sostiene una rama">
+            <h3 class="pregunta"> Astrología heliocéntrica</h3>
+            <p class="texto">Es considerada como la rama tradicional. Se centra en el Sol, como planeta principal, y lo
+                posiciona como el actor fundamental de análisis.</p>
+
+        </div>
+
+        <div class="tarjeta">
+            <img src="img/tarjeta4.png" alt="Icono de una mano sosteniendo una luna">
+            <h3 class="pregunta"> Astrología esotérica</h3>
+            <p class="texto">Adapta los conocimientos teosóficos y de la cábala, y toma como mayor referente a Alice
+                Bayley.</p>
+
+        </div>
+
+        <div class="tarjeta">
+            <img src="img/tarjeta5.png" alt="Icono de una mano rodeada de estrella y del paneta saturno">
+            <h3 class="pregunta"> Astrología uraniana</h3>
+            <p class="texto">Se centra en el estudio entre la interacción de ocho planetas, desplazando el concepto de
+                las casas astrológicas tradicionales. Estos conceptos fueron creados en la Escuela Astrológica de
+                Hamburgo, por Alfred White.</p>
+
+        </div>
+
+        <div class="tarjeta">
+            <img src="img/tarjeta6.png" alt="Icono de una mano sosteniendo un ojo">
+            <h3 class="pregunta"> Astrología kármica</h3>
+            <p class="texto">Se centra en el pensamiento de Martin Schulman, quien estudiaba los procesos kármicos.</p>
+
+        </div>
+
+    </main>
+
+
+
+    <footer class="footer">
+
+        <div class="footerContenedor">
+            <div class="infoContacto">
+                <h4>Nuestras redes sociales</h4>
+                <p>Unite a nuestra comunidad.</p>
+                <h5>Todos los derechos reservados, tu Astrología. Contactanos en info@tuastrología.com</h5>
+            </div>
+
+        </div>
+        <div class="redeSociales">
             <a href="https://facebook.com">
                 <img class="facebook" src="img/fbicono.png" alt="icono Facebook">
             </a>
@@ -35,68 +152,12 @@
                 <img class="email" src="img/emaillogo.png" alt="icono de contacto por email">
             </a>
 
-
         </div>
-    </header>
-
-    <section class="banner">
-        <div class="bannerContenido">
-            <h1>Bienvenidos a tu Astrología</h1>
-            <h2>Es momento de hacer tu propio viaje</h2>
-            <img class="bannerIconos" src="img/signosbanner.png" alt="Iconos de los 12 signos">
-
-
-
-    </section>
-
-    <main class="contenedor1">
-        <div class="tarjeta">
-            <img src="img/hoscopo.jpeg" alt="iconos del sol y los simbolos de los planetas.">
-            <p class="pregunta">¿Qué es la astrología?</p>
-
-            <p class="texto">
-                La astrología es una disciplina seudocientífica que trata de predecir los acontecimientos de la vida
-                humana en base a los astros y su posición en el cielo. Por tanto, la astrología está basada en una serie
-                de creencias que establecen una relación entre los seres humanos y las posiciones de los astros en el
-                firmamento.
-
-            </p>
-        </div>
-
-        <div class="tarjeta">
-            <img src="img/cartaastral.png" alt="la imagen de una carta astral">
-            <p class="pregunta">¿Qué es una carta astras?</p>
-
-            <p class="texto"> Escuchaste mucho este termino y no sabes que es, o no entender mucho de lo que te dice, acá podemos
-                ayudarte.
-                Es una foto de los planetas al momento que naciste. Es decir, vos sos reflejo del universo, ¿Lo sabías?
-            </p>
-        </div>
-
-        <div class="tarjeta">
-            <img src="img/planetas.png" alt="el sol y los planetas">
-            <p class="pregunta"> Los planetas</p>
-            <p class="texto">Los planetas en astrología son muy imporntaes. Desde el sol, la luna y todos lo que aprendiste en el
-                colegio, el sistema solar, es super importante.</p>
-
-        </div>
-        
-        <div>
-            <h2 id="textoh2"> Novedades</h2>
-
-        </div>
-
-
-    </main>
-
-
-
-    <footer>
-        <h4>Todos los derechos reservados, tu Astrología. Contactanos en info@tuastrología.com</h4>
-
-
-
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

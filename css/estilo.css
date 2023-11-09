@@ -7,90 +7,83 @@
 
 
 body {
-    font-family: 'Croissant One', serif;
     background-color: #e3f2ff;
+    font-family: 'Croissant One', serif;
 }
 
-header {
+/*Logo Tu astrología*/
+.logo {
+    width: 400px;
+    padding: 60px;
+    text-align: center;
+
+
+}
+
+/*Enlaces*/
+.estiloNav a {
+    font-size: 1, 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+
+
+
+}
+
+.estiloNav a:hover {
+    background-color: #e3f2ff;
+    color: #f8ad8e;
+
+
+
+}
+
+
+.encabezado {
     background-color: #002447;
     border-bottom: 5px solid #f8ad8e;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100vw;
 
 }
 
 
-/*Redes Sociales*/
 
-div {
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-}
-
-
-.facebook {
-    width: 30px;
-
-}
-
-.instagram {
-    width: 30px;
-}
-
-.email {
-    width: 30px;
-}
-
-/*Logo Tu astrología*/
-.logo {
-    width: 300px;
-    padding: 50px;
-
-
-}
-
-/*Navegación*/
-nav ul li {
-    list-style: none;
-    margin: 10px 10px;
-    display: inline-block;
-    text-align: center;
-
-}
 
 /*Banner*/
 
 .banner {
-    background-image: url("../img/cielobanner.png");
+    background-image: url("../img/bannernuevo.png");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /*Titulos*/
 h1 {
-    /*font-family: Arial, Helvetica, sans-serif;*/
     font-size: 3rem;
-    color: white;
+    color: #002447;
     text-align: center;
 
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
     margin: 5px 100px;
     padding: 3px;
-    color: #e3f2ff;
+    color: #002447;
 
 }
 
@@ -107,15 +100,39 @@ h2 {
 
 /*Contenido*/
 
+.tituloh3 {
+    background-color: #f8ad8e;
+    color: #002447;
+    text-align: center;
+    text-transform: uppercase bold;
+    font-size: 2rem;
+    padding: 16px;
+
+}
+
+h3 {
+
+    color: #002447;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase bold;
+    padding: 30px;
+}
+
+.textoPrincipal {
+    color: #002447;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: 30px 120px;
+
+}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1, 5rem;
     margin: 100px 100px;
-    text-align: justify;
+    text-align: center;
     display: block;
-
-
 }
 
 /*Tarjetas*/
@@ -124,6 +141,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    width: auto;
 
 }
 
@@ -135,16 +153,18 @@ p {
     align-items: center;
     background-color: #002447;
     border: 1px solid white;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.2);
+
 }
 
 .tarjeta img {
-    width: 50%;
+    width: 30%;
     border-radius: 10px;
-    margin-bottom: 20px;
-    object-fit: cover;
+    margin-bottom: 10px;
+
 }
 
 .pregunta {
@@ -156,22 +176,9 @@ p {
 }
 
 .texto {
-    color: antiquewhite;
-    font-size: 1rem;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-
-/*Enlaces*/
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-
+    font-size: 1, 5rem;
+    text-align: left;
 }
 
 /*Novedades*/
@@ -188,32 +195,61 @@ a {
 
 
 /*Footer*/
-footer {
-
+.footer {
     background-color: #002447;
     border-top: #f8ad8e 5px solid;
-    padding: 50px;
+    padding: 20px 0;
+    display: flex;
+    flex: row;
+}
+
+.footerContenedor {
+    max-width: 600px;
+    margin: 0 70px;
+    padding: 10px;
 
 
 }
 
-h3 {
-
-    color: #002447;
+.infoContacto h4 {
     font-size: 2rem;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px 100px;
+    color: #e3f2ff;
+    justify-content: center;
+    margin-left: 150px
+}
+
+.infoContacto p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    color: #e3f2ff;
+    justify-content: center;
+
+}
+
+.infoContacto h5 {
+    font-size: 1rem;
+    margin-bottom: 60px;
+    color: #e3f2ff;
+
+}
+
+/*Redes Sociales*/
+
+
+.redeSociales {
+    margin-left: 200px;
+    margin-top: 100px;
 }
 
 h4 {
     color: white;
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-size: 1rem;
+    justify-content: center;
 
 }
+
+
 
 h5 {
     color: #002447;
@@ -224,29 +260,16 @@ h5 {
 }
 
 /*Formulario*/
-form {
 
-    margin: 15px 100px;
-    text-align: center;
-
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 15px 100px;
-    color: black;
-}
-
-input {
-
-    width: 100px;
-    padding: 10px;
-    border: #f8ad8e 2px solid;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+.formulario {
+    background-color: #e3f2ff;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 
 }
 
@@ -261,28 +284,9 @@ input {
     margin-top: 10px;
 }
 
-/*El cielo hoy*/
-
-.cieloHoy {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-
-.calendarioLunar {
-
-    width: 600px;
-    border-radius: 15px;
-    margin: 15px;
-    border: #f8ad8e solid 3px;
-
-}
 
 /*Escuelita*/
+
 
 .contenedorVideos {
     display: flex;
@@ -293,6 +297,7 @@ input {
 }
 
 .video {
+    background-color: #e3f2ff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -307,20 +312,9 @@ iframe {
 
 /*Resposive*/
 @media (min-width:300px) and (max-width:1030px) {
-    header {
 
-        flex-direction: column;
-        text-align: center;
-        width: 100vw;
-        padding-left: 0;
-        padding-right: 0;
-
-    }
-
-    .nav ul li {
-        height: auto;
-        flex-direction: column;
-        text-align: center;
+    .logo {
+        align-items: center;
     }
 
     .banner {
@@ -330,12 +324,12 @@ iframe {
     }
 
     .bannerContenido h1 {
-        font-size: 1rem;
+        font-size: 2rem;
 
     }
 
     .bannerContenido h2 {
-        font-size: 1, 5rem;
+        font-size: 1, 1rem;
         text-align: center;
     }
 
@@ -343,6 +337,7 @@ iframe {
         width: 80vw;
         padding-left: 0;
         padding-right: 0;
+        display: none;
 
     }
 
@@ -364,13 +359,27 @@ iframe {
     }
 
     .footer {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
-    .calendarioLunar {
-        width: 80vw;
-        padding-left: 0;
-        padding-right: 0;
+    .footerContenedor {
+        align-items: center;
+    }
+
+    .infoContacto h4 {
+        text-align: center;
+        margin-left: 50px
+    }
+
+    .redeSociales {
+        margin-left: 260px;
+        align-items: center;
+
+    }
+
+    iframe {
+        margin: 30px;
 
     }
 
