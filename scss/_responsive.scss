@@ -1,24 +1,40 @@
-
 /*Resposive*/
 @media (min-width: 300px) and (max-width: 1030px) {
   .logo {
     align-items: center;
+    width: 75vw;
+    padding: 20px;
+
+  }
+
+  .whatsapp {
+    display: none;
   }
 
   .banner {
-    width: 100vw;
+
     padding-left: 0;
     padding-right: 0;
   }
 
   .bannerContenido {
+
+
     h1 {
-      font-size: 2rem;
+      align-items: center;
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 1.5rem;
+
+
     }
 
     h2 {
-      font-size: 1, 1rem;
+      align-items: center;
+      font-size: 1rem;
       text-align: center;
+      width: 50%;
+
     }
   }
 
@@ -29,13 +45,38 @@
     display: none;
   }
 
+  .tituloh3 {
+    align-items: center;
+    width: 100%;
+   
+  }
+.textoPrincipal {
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+
+}
+
+
   .contenedor1 {
     grid-template-columns: 1fr;
   }
 
   .tarjeta {
-    width: 80vw;
+    width: 90%;
     padding-left: 0;
+  }
+
+  .img {
+  width: 300px;
+  }
+
+  .pregunta {
+    font-size: 1rem;
+  }
+
+  .texto {
+    width: 80%;
   }
 
   #textoh2 {
@@ -54,16 +95,22 @@
 
   .infoContacto h4 {
     text-align: center;
-    margin-left: 50px;
+
   }
 
+.google {
+  
+  align-items: center;
+}
   .redeSociales {
-    margin-left: 260px;
+    margin-left: 50px;
     align-items: center;
   }
 
   iframe {
-    margin: 30px;
+    align-items: center;
+    width: 80%;
+
   }
 }
 

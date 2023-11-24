@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 * {
+  border: solid 2px black;
   margin: 0;
   padding: 0; }
 
@@ -37,6 +38,13 @@ body {
   justify-content: space-between;
   width: 100vw; }
 
+.whatsapp {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 100px; }
+
 /*Contenido*/
 .tituloh3 {
   background-color: #f8ad8e;
@@ -48,20 +56,20 @@ body {
 
 h3 {
   color: #002447;
-  font-size: 2rem;
+  font-size: 1,5rem;
   text-align: center;
   text-transform: uppercase bold;
   padding: 30px; }
 
 .textoPrincipal {
   color: #002447;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: justify;
   margin: 30px 120px; }
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1, 5rem;
+  font-size: 1rem;
   margin: 100px 100px;
   text-align: center;
   display: block; }
@@ -115,7 +123,23 @@ h2 {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  animation-name: animaciontarjeta;
+  animation-duration: 2s;
+  position: relative; }
+@keyframes animaciontarjeta {
+  0% {
+    top: 15px;
+    bottom: 15px;
+    opacity: 0; }
+  50% {
+    top: 5px;
+    bottom: 10px;
+    opacity: 50%; }
+  100% {
+    top: 0;
+    bottom: 0;
+    opacity: 100%; } }
   .tarjeta img {
     width: 30%;
     border-radius: 10px;
@@ -124,14 +148,14 @@ h2 {
 .pregunta {
   color: #e3f2ff;
   font-size: bold;
-  font-size: 2rem;
+  font-size: 1,5rem;
   text-align: center;
   margin-bottom: 10px; }
 
 .texto {
   color: white;
-  font-size: 1, 5rem;
-  text-align: left; }
+  font-size: 1rem;
+  text-align: center; }
 
 /*Formulario*/
 .formulario {
@@ -166,71 +190,67 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  width: 100%; }
 
 iframe {
-  margin: 15px 600px; }
+  margin: 15px 80px; }
+
+/*Contactarnos*/
+.contactos {
+  align-items: center; }
+
+.google {
+  align-items: center; }
 
 /*Footer*/
-.footer {
+footer {
+  box-sizing: content-box;
   background-color: #002447;
-  border-top: #f8ad8e 5px solid;
-  padding: 20px 0;
   display: flex;
-  flex: row; }
+  border-top: 5px solid #f8ad8e; }
+  footer div {
+    text-decoration: none;
+    color: white;
+    align-items: center; }
+    footer div h4 {
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 30px; }
+      footer div h4 p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center; }
 
-.footerContenedor {
-  max-width: 600px;
-  margin: 0 70px;
-  padding: 10px; }
-
-.infoContacto h4 {
-  font-size: 2rem;
-  color: #e3f2ff;
-  justify-content: center;
-  margin-left: 150px; }
-.infoContacto p {
-  font-size: 1rem;
-  margin-bottom: 30px;
-  margin-left: 200px;
-  color: #e3f2ff;
-  justify-content: center; }
-.infoContacto h5 {
-  font-size: 1rem;
-  margin-bottom: 60px;
-  color: #e3f2ff; }
-
-/*Redes Sociales*/
 .redeSociales {
-  margin-left: 200px;
-  margin-top: 100px; }
-
-h4 {
-  color: white;
-  font-size: 1rem;
-  justify-content: center; }
-
-h5 {
-  color: #002447;
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  display: flex;
+  padding-top: 50px;
+  gap: 30px; }
 
 /*Resposive*/
 @media (min-width: 300px) and (max-width: 1030px) {
   .logo {
-    align-items: center; }
+    align-items: center;
+    width: 75vw;
+    padding: 20px; }
+
+  .whatsapp {
+    display: none; }
 
   .banner {
-    width: 100vw;
     padding-left: 0;
     padding-right: 0; }
 
   .bannerContenido h1 {
-    font-size: 2rem; }
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.5rem; }
   .bannerContenido h2 {
-    font-size: 1, 1rem;
-    text-align: center; }
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+    width: 50%; }
 
   .bannerIconos {
     width: 80vw;
@@ -238,12 +258,30 @@ h5 {
     padding-right: 0;
     display: none; }
 
+  .tituloh3 {
+    align-items: center;
+    width: 100%; }
+
+  .textoPrincipal {
+    display: table-cell;
+    text-align: center;
+    width: 100%; }
+
   .contenedor1 {
     grid-template-columns: 1fr; }
 
   .tarjeta {
-    width: 80vw;
+    width: 90%;
     padding-left: 0; }
+
+  .img {
+    width: 300px; }
+
+  .pregunta {
+    font-size: 1rem; }
+
+  .texto {
+    width: 80%; }
 
   #textoh2 {
     text-align: right;
@@ -257,15 +295,18 @@ h5 {
     align-items: center; }
 
   .infoContacto h4 {
-    text-align: center;
-    margin-left: 50px; }
+    text-align: center; }
+
+  .google {
+    align-items: center; }
 
   .redeSociales {
-    margin-left: 260px;
+    margin-left: 50px;
     align-items: center; }
 
   iframe {
-    margin: 30px; } }
+    align-items: center;
+    width: 80%; } }
 @media (max-width: 700px) {
   .bannerIconos {
     display: none; } }
